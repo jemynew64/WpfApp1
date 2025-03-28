@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="Login" Height="270" Width="400">
+        Title="Login" Height="280" Width="300">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -28,7 +28,7 @@
              VerticalAlignment="Center" Margin="10" Padding="5" Height="35" FontSize="16"/>
 
         <!-- Etiqueta de Contraseña -->
-        <Label Content="Contraseña:" Grid.Row="1" Grid.Column="0" 
+        <Label Content="Password:" Grid.Row="1" Grid.Column="0" 
            VerticalAlignment="Center" HorizontalAlignment="Right" 
            FontSize="16" Margin="10"/>
 
